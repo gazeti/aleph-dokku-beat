@@ -1,4 +1,4 @@
-FROM pudo/aleph@a0059e73ee64
+FROM pudo/aleph:latest
 
 ENV ELASTICSEARCH_INDEX aleph
 ENV ALEPH_SETTINGS /aleph/contrib/docker_settings.py
